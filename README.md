@@ -8,4 +8,12 @@ Before you can run the program, you need to install the required Python library.
 
 ```bash
 pip install requests
+```
+
+## Configuration
+You need to obtain an API key from OpenAI to use their API. Once you have the API key, replace OpenAI-API-key in the headers dictionary with your actual API key:
+
+```python
+"Authorization": "Bearer YOUR_API_KEY"
+```
 
